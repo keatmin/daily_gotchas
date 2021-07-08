@@ -1,3 +1,18 @@
+## 2021-07-08
+### Unit testing on a function whether an exception is properly raised
+- Using `pytest.raises`
+
+```python
+import pytest
+
+def test_func_division_error():
+    with pytest.raises(ZeroDivisionError):
+        9/0
+```
+
+- To allow an exception to be raised, the decorator `@pytest.mark.xfail(raise=ZeroDivisionError)` can be used. However note that it is only allowing `ZeroDivisionError` to be raised and not testing whether the func will raise an Exception.
+
+
 ## 2021-06-18
 Given full structure:
 ```
@@ -14,7 +29,7 @@ Given full structure:
     |-- fraud_data.txt
     `-- fraud_detection_test.py -- from fraud_detection.app import bar
 ```
-- Running `python3 fraud_detection/app.py` with relative import `from data import foo` will run successfully, but `pytest tests/` will fail with import error that `data` cannot be imported. 
+- Running `python3 fraud_detection/app.py` with relative import `from data import foo` will run successfully, but `pytest tests/` will fail with import error that `data` cannot be imported.
 - Changing relative import `from data import foo` to absolute import  `fraud_detection.data import foo` in `fraud_detection/app.py` will make pytest pass but `python3 fraud_detection/app.py` fail with import error that fraud_detection is not a module
 
 ### Reasons:
