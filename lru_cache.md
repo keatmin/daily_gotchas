@@ -1,5 +1,5 @@
 ## 2021-07-01
-```python3
+```python
 from func_tools import lru_cache
 
 
@@ -10,7 +10,7 @@ def foo():
 This is good enough if you do not need to have TTL
 
 **For async version**
-```python3
+```python
 from async_lru import alru_cache
 
 
@@ -21,11 +21,22 @@ async def foo():
 This is an exact port from the `lru_cache` version, as mentioned in [docs](https://github.com/aio-libs/async-lru)
 
 
-If TTL is needed:
-```python3
+If TTL is needed in async:
+```python
 from aiocache import cached, Cache
 
 @cached(ttl=10,cache=Cache.MEMORY)
 async def foo():
     return await bar
+```
+
+Additional lib from @jianshen92:
+
+For sync TTL cache [library](https://github.com/lonelyenvoy/python-memoization)
+```python
+from memoization import cached
+
+@cached(ttl=10) # Cache expires after 10 seconds
+def foo():
+    return "bar"
 ```
