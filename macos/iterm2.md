@@ -7,6 +7,11 @@ For example:
 ⌘ + d --> Split window vertically
 ⌘ + cmd + d --> Split window horizontally
 
-⌘ + shift + enter --> Maximise the current pane you are working on, repeat the same command to get the other pane
+⌘ + shift + enter -->
+Maximise the current pane you are working on,
+repeat the same command to get the other pane
+
 ctrl + ⌘ + arrow keys --> Resize pane
 ```
+
+[Link to more shortcut](https://defkey.com/iterm-shortcuts)
