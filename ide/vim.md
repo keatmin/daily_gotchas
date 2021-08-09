@@ -1,3 +1,7 @@
+## 2021-08-10
+
+Using below, using `;` to move to the next one in the same direction and `,` in the opposite direction of the navigation
+
 ## 2021-07-30
 
 IT has been quite frustrating moving between lines when the navigating options are `hjklwb$^`
