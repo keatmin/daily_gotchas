@@ -23,9 +23,12 @@ With above inline policy for a user, the user can:
 assume `Role` or `Role2` on their local with aws cli using
 
 ```bash
-aws sts assume-role --role-arn "arn:of:role" --role-session-name "name" --profile "profile_name_of_user"
+aws sts assume-role
+    --role-arn "arn:of:role"
+    --role-session-name "name"
+    --profile "profile_name_of_user"
 ```
-*Never use default profile for your aws* use `aws configure` to configure a profile that's not default
+**:exclamation: Never use default profile for your aws** Instead use `aws configure` to configure a profile that's not default
 
 To only allow conditions on who and how to assume role, add
 ```json
