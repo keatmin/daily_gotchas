@@ -24,7 +24,7 @@ WHERE
   B.user_id IS NULL
 ```
 
-The initial expectation was, using `IN` where the Array object is huge can be much slower than `JOIN`. However, modern DW such as Redshift and BigQuery
+The initial expectation was, using `IN` where the Array object is huge can be much slower than `JOIN`. However, modern DWH such as Redshift and BigQuery
 seems to have smart query planner that are able to recognize this query pattern. Query cost for both method on these DW are the same.
 
 However, can't say the same for row-based RDBMS.
