@@ -22,12 +22,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
     },
     navbar: {
       items: [
-        {
-          type: 'doc',
-          docId: 'wiki_index',
-          label: 'wiki',
-          position: 'left',
-        },
+//        {
+//          type: 'doc',
+//          docId: 'wiki_index',
+//          label: 'wiki',
+//          position: 'left',
+//        },
         {to: '/gotchas', label: 'gotchas', position: 'left'},
         {
           type: 'doc',
