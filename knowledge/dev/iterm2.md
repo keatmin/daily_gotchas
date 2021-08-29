@@ -1,4 +1,8 @@
-## 2021-07-16
+---
+title: iterm2
+---
+
+## iterm2 shortcuts
 
 Often times when there are two windows splitted vertically/horizontally in the same profile, one will get more use while others will be in the background.
 

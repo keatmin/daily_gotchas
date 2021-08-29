@@ -1,4 +1,9 @@
-## 2021-08-01
+---
+slug: python-mypy-config
+title: mypy Configurations
+authors: keatmin
+tags: [python, mypy]
+---
 
 mypy usually doesn't check types inside the function scope but generally in module scope, hence:
 ```python
@@ -22,7 +27,7 @@ def foo(x: int):
 - This is useful because if we are migrating a codebase to start using type hints, then this will start with checking all the types within a function and we can start solving from there.
 
 - One other feature to add after `check_untyped_defs` is to add `disallow_untyped_defs` so that mypy will make sure that there's no functions with no type hints
-```yaml
+```yaml title='pyproject.toml'
 [tool.mypy]
 check_untyped_defs = true
 disallow_untyped_defs = true

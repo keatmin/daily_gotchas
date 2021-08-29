@@ -1,4 +1,10 @@
-## 2021-07-24
+---
+slug: docker-security
+title: Docker Security
+authors: keatmin
+tags: [docker,dev,security]
+---
+
 1. `Run apt-get update && apt-get -y upgrade` ensure security in docker image is up to date. Ensure that CI/CD rebuilds the image regularly to ensure that the latest security patch is updated in docker image
 ```bash
 docker build --pull --no-cache
