@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkgotchas=self.webpackChunkgotchas||[]).push([[6588],{8843:function(s){s.exports=JSON.parse('{"allTagsPath":"/daily_gotchas/gotchas/tags","slug":"/daily_gotchas/gotchas/tags/ecs","name":"ecs","count":1,"permalink":"/daily_gotchas/gotchas/tags/ecs"}')}}]);

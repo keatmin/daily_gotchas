@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgotchas=self.webpackChunkgotchas||[]).push([[1100],{1457:function(t){t.exports=JSON.parse('{"permalink":"/daily_gotchas/gotchas","page":1,"postsPerPage":10,"totalPages":1,"totalCount":10,"previousPage":null,"nextPage":null,"blogDescription":"The daily gotchas that got us","blogTitle":"Daily Gotchas"}')}}]);

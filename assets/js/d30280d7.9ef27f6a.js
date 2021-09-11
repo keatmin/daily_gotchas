@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkgotchas=self.webpackChunkgotchas||[]).push([[7427],{3571:function(s){s.exports=JSON.parse('{"allTagsPath":"/daily_gotchas/gotchas/tags","slug":"/daily_gotchas/gotchas/tags/redshift","name":"redshift","count":1,"permalink":"/daily_gotchas/gotchas/tags/redshift"}')}}]);

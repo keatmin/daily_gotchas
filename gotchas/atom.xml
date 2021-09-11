@@ -2,33 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://keatmin.github.io/daily_gotchas/gotchas</id>
     <title>Daily Gotchas Blog</title>
-    <updated>2021-09-11T00:00:00.000Z</updated>
+    <updated>2021-08-24T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://keatmin.github.io/daily_gotchas/gotchas"/>
     <subtitle>Daily Gotchas Blog</subtitle>
     <icon>https://keatmin.github.io/daily_gotchas/img/logo.png</icon>
-    <entry>
-        <title type="html"><![CDATA[Mechanism in async]]></title>
-        <id>async-mechanism</id>
-        <link href="https://keatmin.github.io/daily_gotchas/gotchas/async-mechanism"/>
-        <updated>2021-09-11T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Usage of asyncio makes things easy when it works, but understanding what is happening and what is behind will help in designing better async app.]]></summary>
-        <author>
-            <name>keatmin</name>
-            <uri>https://github.com/keatmin</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Managing Python Memory]]></title>
-        <id>python-memory-management</id>
-        <link href="https://keatmin.github.io/daily_gotchas/gotchas/python-memory-management"/>
-        <updated>2021-09-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Memory management in Python is interesting as compared to low-level languages since it is being managed automatically. This gotchas will explain how to use less memory when managing data that is relatively big in a function.]]></summary>
-        <author>
-            <name>keatmin</name>
-            <uri>https://github.com/keatmin</uri>
-        </author>
-    </entry>
     <entry>
         <title type="html"><![CDATA[AIOHttp Client Settings]]></title>
         <id>aiohttp-client-settings</id>
@@ -41,17 +19,6 @@
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Working with MFA-enabled role]]></title>
-        <id>aws-iam-mfa</id>
-        <link href="https://keatmin.github.io/daily_gotchas/gotchas/aws-iam-mfa"/>
-        <updated>2021-08-24T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Use IAM policy with Trust Relationship condition to add MFA requirement to assume role]]></summary>
-        <author>
-            <name>keatmin</name>
-            <uri>https://github.com/keatmin</uri>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Efficient SQL filtering]]></title>
         <id>efficient-sql-filter</id>
         <link href="https://keatmin.github.io/daily_gotchas/gotchas/efficient-sql-filter"/>
@@ -60,28 +27,6 @@
         <author>
             <name>jianshen</name>
             <uri>https://github.com/jianshen92</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Using IAM to access Redshift]]></title>
-        <id>aws-redshift-iam-access</id>
-        <link href="https://keatmin.github.io/daily_gotchas/gotchas/aws-redshift-iam-access"/>
-        <updated>2021-08-21T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[`json]]></summary>
-        <author>
-            <name>keatmin</name>
-            <uri>https://github.com/keatmin</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Using IAM to connect to RDS]]></title>
-        <id>aws-rds-iam-connect</id>
-        <link href="https://keatmin.github.io/daily_gotchas/gotchas/aws-rds-iam-connect"/>
-        <updated>2021-08-19T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[1. Enable IAM DB authentication for the database]]></summary>
-        <author>
-            <name>keatmin</name>
-            <uri>https://github.com/keatmin</uri>
         </author>
     </entry>
     <entry>
@@ -145,17 +90,6 @@
         <link href="https://keatmin.github.io/daily_gotchas/gotchas/python-lru-cache"/>
         <updated>2021-07-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[`python]]></summary>
-        <author>
-            <name>keatmin</name>
-            <uri>https://github.com/keatmin</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Secrets and Logging in ECS]]></title>
-        <id>aws-ecs-secrets-logging</id>
-        <link href="https://keatmin.github.io/daily_gotchas/gotchas/aws-ecs-secrets-logging"/>
-        <updated>2021-06-30T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[1. If you have an environment variable that relies on Parameter Store or Secrets in your task-definition, updating your ecr repo image will make the service not receive the environment variable in the current service]]></summary>
         <author>
             <name>keatmin</name>
             <uri>https://github.com/keatmin</uri>
