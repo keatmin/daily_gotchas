@@ -42,7 +42,7 @@ jobs:
           GIT_USER: ${{ secrets.GH_USER }}
           GIT_EMAIL: ${{ secrets.GH_EMAIL }}
         run: |
-          git config --global user.email $GIT_EMAIL)
+          git config --global user.email $GIT_EMAIL
           git config --global user.name $GIT_USER
           if [ -e yarn.lock ]; then
             yarn install --frozen-lockfile
