@@ -1,4 +1,9 @@
-## 2021-08-10
+---
+slug: aws-iam-assume-role
+title: Assuming role in AWS
+authors: keatmin
+tags: [aws, iam]
+---
 
 Not a new gotcha, but a reminder on how to assume role:
 
@@ -28,7 +33,11 @@ aws sts assume-role
     --role-session-name "name"
     --profile "profile_name_of_user"
 ```
+:::caution
+
 **:exclamation: Never use default profile for your aws** Instead use `aws configure` to configure a profile that's not default
+
+:::
 
 To only allow conditions on who and how to assume role, add
 ```json

@@ -1,4 +1,9 @@
-# 24-08-2021
+---
+slug: efficient-sql-filter
+title: Efficient SQL filtering
+authors: jianshen
+tags: [database, sql]
+---
 
 Putting this here because I'm surprised even sometimes the experienced data scientist does not know about this.
 
@@ -6,21 +11,21 @@ Putting this here because I'm surprised even sometimes the experienced data scie
 
 Typically, people like to do
 ```sql
-SELECT 
-  * 
-FROM A 
+SELECT
+  *
+FROM A
 WHERE A.user_id NOT IN (SELECT DISTINCT user_id FROM B)
 ```
 
 What I prefer,
 ```sql
-SELECT 
-  * 
-FROM A  
-  LEFT JOIN B 
-ON 
+SELECT
+  *
+FROM A
+  LEFT JOIN B
+ON
   A.user_id = B.user_id
-WHERE 
+WHERE
   B.user_id IS NULL
 ```
 

@@ -1,4 +1,9 @@
-# 24-08-2021
+---
+slug: aiohttp-client-settings
+title: AIOHttp Client Settings
+authors: jianshen
+tags: [python, aiohttp]
+---
 
 ## Aiohttp Client settings
 
