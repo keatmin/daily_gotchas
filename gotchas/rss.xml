@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Daily Gotchas Blog</title>
+        <link>https://keatmin.github.io/daily_gotchas/gotchas</link>
+        <description>Daily Gotchas Blog</description>
+        <lastBuildDate>Sat, 11 Sep 2021 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Mechanism in async]]></title>
+            <link>https://keatmin.github.io/daily_gotchas/gotchas/async-mechanism</link>
+            <guid>async-mechanism</guid>
+            <pubDate>Sat, 11 Sep 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Usage of asyncio makes things easy when it works, but understanding what is happening and what is behind will help in designing better async app.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Managing Python Memory]]></title>
+            <link>https://keatmin.github.io/daily_gotchas/gotchas/python-memory-management</link>
+            <guid>python-memory-management</guid>
+            <pubDate>Mon, 06 Sep 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Memory management in Python is interesting as compared to low-level languages since it is being managed automatically. This gotchas will explain how to use less memory when managing data that is relatively big in a function.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[AIOHttp Client Settings]]></title>
+            <link>https://keatmin.github.io/daily_gotchas/gotchas/aiohttp-client-settings</link>
+            <guid>aiohttp-client-settings</guid>
+            <pubDate>Tue, 24 Aug 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Aiohttp Client settings]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Working with MFA-enabled role]]></title>
+            <link>https://keatmin.github.io/daily_gotchas/gotchas/aws-iam-mfa</link>
+            <guid>aws-iam-mfa</guid>
+            <pubDate>Tue, 24 Aug 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Use IAM policy with Trust Relationship condition to add MFA requirement to assume role]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Efficient SQL filtering]]></title>
+            <link>https://keatmin.github.io/daily_gotchas/gotchas/efficient-sql-filter</link>
+            <guid>efficient-sql-filter</guid>
+            <pubDate>Tue, 24 Aug 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Putting this here because I'm surprised even sometimes the experienced data scientist does not know about this.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Using IAM to access Redshift]]></title>
+            <link>https://keatmin.github.io/daily_gotchas/gotchas/aws-redshift-iam-access</link>
+            <guid>aws-redshift-iam-access</guid>
+            <pubDate>Sat, 21 Aug 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[`json]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Using IAM to connect to RDS]]></title>
+            <link>https://keatmin.github.io/daily_gotchas/gotchas/aws-rds-iam-connect</link>
+            <guid>aws-rds-iam-connect</guid>
+            <pubDate>Thu, 19 Aug 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[1. Enable IAM DB authentication for the database]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Assuming role in AWS]]></title>
+            <link>https://keatmin.github.io/daily_gotchas/gotchas/aws-iam-assume-role</link>
+            <guid>aws-iam-assume-role</guid>
+            <pubDate>Tue, 10 Aug 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Not a new gotcha, but a reminder on how to assume role:]]></description>
+        </item>
+        <item>
+            <title><![CDATA[mypy Configurations]]></title>
+            <link>https://keatmin.github.io/daily_gotchas/gotchas/python-mypy-config</link>
+            <guid>python-mypy-config</guid>
+            <pubDate>Sun, 01 Aug 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[mypy usually doesn't check types inside the function scope but generally in module scope, hence:]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Docker Security]]></title>
+            <link>https://keatmin.github.io/daily_gotchas/gotchas/docker-security</link>
+            <guid>docker-security</guid>
+            <pubDate>Sat, 24 Jul 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[1. Run apt-get update && apt-get -y upgrade ensure security in docker image is up to date. Ensure that CI/CD rebuilds the image regularly to ensure that the latest security patch is updated in docker image]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Git Merge PR]]></title>
+            <link>https://keatmin.github.io/daily_gotchas/gotchas/git-merge-pr</link>
+            <guid>git-merge-pr</guid>
+            <pubDate>Fri, 09 Jul 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Typically when we merge Pull Request from short lived branches (feature branch) to long lived branches,]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Pytest Mock]]></title>
+            <link>https://keatmin.github.io/daily_gotchas/gotchas/python-pytest-mock</link>
+            <guid>python-pytest-mock</guid>
+            <pubDate>Thu, 08 Jul 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Unit testing on a function whether an exception is properly raised]]></description>
+        </item>
+        <item>
+            <title><![CDATA[LRU cache]]></title>
+            <link>https://keatmin.github.io/daily_gotchas/gotchas/python-lru-cache</link>
+            <guid>python-lru-cache</guid>
+            <pubDate>Thu, 01 Jul 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[`python]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Secrets and Logging in ECS]]></title>
+            <link>https://keatmin.github.io/daily_gotchas/gotchas/aws-ecs-secrets-logging</link>
+            <guid>aws-ecs-secrets-logging</guid>
+            <pubDate>Wed, 30 Jun 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[1. If you have an environment variable that relies on Parameter Store or Secrets in your task-definition, updating your ecr repo image will make the service not receive the environment variable in the current service]]></description>
+        </item>
+        <item>
+            <title><![CDATA[How Virtual Environment works]]></title>
+            <link>https://keatmin.github.io/daily_gotchas/gotchas/python-venv-fyi</link>
+            <guid>python-venv-fyi</guid>
+            <pubDate>Wed, 09 Jun 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[How does virtualenv works?]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Pytest File Structure]]></title>
+            <link>https://keatmin.github.io/daily_gotchas/gotchas/python-pytest-file-structure</link>
+            <guid>python-pytest-file-structure</guid>
+            <pubDate>Tue, 08 Jun 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Given full structure:]]></description>
+        </item>
+    </channel>
+</rss>

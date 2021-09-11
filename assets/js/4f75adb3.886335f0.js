@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgotchas=self.webpackChunkgotchas||[]).push([[5301],{9873:function(a){a.exports=JSON.parse('{"allTagsPath":"/daily_gotchas/gotchas/tags","slug":"/daily_gotchas/gotchas/tags/docker","name":"docker","count":1,"permalink":"/daily_gotchas/gotchas/tags/docker"}')}}]);
